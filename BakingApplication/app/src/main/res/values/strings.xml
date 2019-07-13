@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">BakingApplication</string>
+    <string name="label">recipe</string>
+    <string name="ingredients_label">Ingredients</string>
+    <string name="steps_label">Steps</string>
+    <string name="multiply">x</string>
+    <string name="description">Description</string>
+    <string name="title_activity_video">VideoActivity</string>
+    <string name="play">Play</string>
+    <string name="pause">Pause</string>
+    <string name="no_internet_label">There is no Internet Connection</string>
+    <string name="not_avalible">Not Avalible</string>
+    <string name="short_description">Short Description</string>
+    <string name="step_description">Step Description</string>
+    <string name="image_description">Image Description</string>
+    <string name="share_chooser_label">Share Recipe Ingredients</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_to_widget">Add to widget</string>
+    <string name="empty">Your widget is empty</string>
+    <string name="added_to_widget">Added to widget successfully</string>
+    <string name="falied_to_add">unsuccessful action</string>
+    <string name="fab_label">Menu</string>
+    <string name="share">Share</string>
+    <string name="ingredients_to_share">These are the Ingredients to make</string>
+
+</resources>

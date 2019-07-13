@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.ahmed.bakingapplication">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="AllowBackup,GoogleAppIndexingWarning">
+        <receiver android:name="Widget.IngredientsWidget">
+
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/my_widget_info" />
+        </receiver>
+
+        <service android:name="Widget.GridRemoteViewsService"
+                  android:permission="android.permission.BIND_REMOTEVIEWS"/>
+
+        <service android:name="Widget.IngredientsWidgetService"/>
+
+
+
+
+
+        <activity
+            android:name="UI.VideoActivity"
+            android:label="@string/title_activity_video"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name="UI.IngredientsActivity" />
+        <activity android:name="UI.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <provider
+            android:name=".RecipeProvider"
+            android:authorities="com.ahmed.bakingapplication"
+            android:exported="true"
+            tools:ignore="ExportedContentProvider"
+            />
+    </application>
+</manifest>

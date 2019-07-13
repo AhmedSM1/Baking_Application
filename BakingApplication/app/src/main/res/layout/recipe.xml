@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="4dp"
+    android:layout_marginLeft="8dp"
+    android:layout_marginRight="8dp"
+    android:layout_marginTop="4dp"
+    android:orientation="horizontal"
+    android:background="@android:drawable/dialog_holo_light_frame">
+
+
+    <TextView
+        android:id="@+id/recipe_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="2px"
+        android:gravity="center_horizontal"
+        android:textSize="@dimen/big_text_size"
+        android:textStyle="bold"
+        android:textAppearance="?attr/textAppearanceListItemSecondary"
+        tools:text="Recipe title"/>
+
+
+
+</FrameLayout>
