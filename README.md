@@ -1,13 +1,16 @@
 <h2>Baking Application</h2> 
 
-<img src="Baking_app_img/Screenshot_20190729-092012_BakingApplication.jpg" width = "300">
+<span>
+    <img src="Baking_app_img/Screenshot_20190729-092012_BakingApplication.jpg" width = "300"></span>
 
-<img src="Baking_app_img/Screenshot_20190729-092026_BakingApplication.jpg" width = "300">
+<span>
+<img src="Baking_app_img/Screenshot_20190729-092026_BakingApplication.jpg" width = "300"></span>
+    
+<span>
+<img src="Baking_app_img/Screenshot_20190729-092223_BakingApplication.jpg" width = "300"></span>
 
-<img src="Baking_app_img/Screenshot_20190729-092223_BakingApplication.jpg" width = "300">
-
-<img src="Baking_app_img/Screenshot_20190729-092134_One_UI_Home.jpg" width = "300">
-
+<span>
+<img src="Baking_app_img/Screenshot_20190729-092134_One_UI_Home.jpg" width = "300"></span>
 
 
 
