@@ -1,4 +1,4 @@
-Baking Application
+<h2>Baking Application</h2> 
 
 <img src="Baking_app_img/Screenshot_20190729-092012_BakingApplication.jpg" width = "300">
 
