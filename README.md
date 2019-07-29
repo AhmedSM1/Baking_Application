@@ -1,12 +1,14 @@
 Baking Application
 
-![](Baking_app_img/Screenshot_20190729-092012_BakingApplication.jpg)
+<img src="Baking_app_img/Screenshot_20190729-092012_BakingApplication.jpg" width = "300" height= "400">
 
-![](Baking_app_img/Screenshot_20190729-092026_BakingApplication.jpg)
+<img src="Baking_app_img/Screenshot_20190729-092026_BakingApplication.jpg" width = "300" height= "400">
 
-![](Baking_app_img/Screenshot_20190729-092223_BakingApplication.jpg)
+<img src="Baking_app_img/Screenshot_20190729-092223_BakingApplication.jpg" width = "300" height= "400">
 
-![](Baking_app_img/Screenshot_20190729-092134_One_UI_Home.jpg)
+<img src="Baking_app_img/Screenshot_20190729-092134_One_UI_Home.jpg" width = "300" height= "400">
+
+
 
 
 The Baking App is the Project No.4 of the Nanodegree program by Udacity.The main purpose of this Project is to create fragments 
