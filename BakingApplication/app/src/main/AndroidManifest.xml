@@ -39,7 +39,8 @@
             android:name="UI.VideoActivity"
             android:label="@string/title_activity_video"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name="UI.IngredientsActivity" />
+        <activity android:name="UI.IngredientsActivity"
+            android:parentActivityName="UI.MainActivity"/>
         <activity android:name="UI.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
